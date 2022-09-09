@@ -1,0 +1,149 @@
+h2.employ_link {
+	position: absolute;
+	top: 220px;
+	right: 50px;
+	text-align: center;
+	font-family: inherit;
+	color: #71AB1E;
+	font-size: 40px;
+}
+h2.employ_name {
+	position: absolute;
+	bottom: 117px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: inherit;
+	color: #000;
+	font-size: 90px;
+}
+img.employ_image {
+	width: 200px;
+	position: absolute;
+	left: 50px;
+	top: 200px;
+}
+img.main_template {
+	width: 100%;
+	margin: auto;
+	display: block;
+	position: relative;
+	z-index: 3;
+}
+img.employ_image {
+	width: 420px;
+	left: 135px;
+	top: 110px;
+	border-radius: 0px;
+	z-index: 1;
+	position: absolute;
+}
+.overlay_background {
+	width: 420px;
+	height: 420px;
+	left: 135px;
+	top: 110px;
+	border-radius: 0px;
+	z-index: 2;
+	position: absolute;
+	background-size: cover;
+	background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(0 0 0 / 25%));
+}
+.form_field_section {
+	display: inline-block;
+	width: 30%;
+	padding: 10px 0px;
+	text-align: left;
+}
+
+input.emp_image, .awesome-cropper {
+	margin: 0px 0 23px;
+	border-radius: 3px;
+	border: 1px solid #c7c5c5;
+	padding: 3px;
+}
+button#next1 {
+	width: 50%;
+	cursor: pointer;
+}
+.awesome-cropper > img {
+	margin-top: 10px;
+}
+.download_preview_wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+.main_form_preview{
+	background: #FFFFFF; display: inline-block; position: relative;width: 670px; vertical-align: middle;
+}
+
+
+.iEdit-img-edit{
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color:rgba(10,10,10,0.7);
+	top:0px;
+	left: 0px;
+	z-index: 8;
+	opacity: 0;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.iEdit-img-edit-act {
+    height: 37px;
+    width: 120px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #ffffff;
+    left: 50%;
+    margin-left: -115px;
+    bottom: 33px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 37px;
+    color: rgba(10,10,10,0.55);
+    font-family: helvetica neue, segoe ui, roboto, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+
+.iEdit-img-edit-cancel{
+	margin-left: 16px;
+	background-color: #ffffff;
+}
+
+.iEdit-img-edit-can{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 50px;
+	right: 0px;
+	margin:auto;
+}
+
+.iEdit-img-edit-process-can{
+	display: none;
+}
+
+.iEdit-img-edit-select{
+	position: fixed;
+	background-color: rgba(10,10,10,0.5);
+	box-shadow: inset 0px 0px 0px 3px rgba(256,256,256,0.8);
+}
+
+.iEdit-img-edit-select-resize{
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	background-color: rgba(255,255,255,0.8);
+	right: 3px;
+	bottom: 3px;
+	cursor: nwse-resize;
+}
